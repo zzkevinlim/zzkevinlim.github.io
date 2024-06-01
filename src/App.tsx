@@ -1,8 +1,7 @@
-import './App.css';
 import { useEffect } from 'react';
+import { Outlet } from "react-router-dom";
 import NavigationMenu from './components/NavigationMenu';
-import TagLine from './components/TagLine';
-import ProjectList from './components/ProjectList';
+import './App.css';
 
 const App = () => {
   useEffect(() => {
@@ -18,12 +17,9 @@ const App = () => {
   return (
     <div className="px-4 lg:px-0 lg:ml-[13.125rem] xl:ml-[17.1875rem]">
       <NavigationMenu />
-      <div className="grow">
-        <TagLine />
-        <ProjectList />
-      </div>
+      <Outlet />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

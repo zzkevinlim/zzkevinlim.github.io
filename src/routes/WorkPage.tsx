@@ -1,6 +1,7 @@
 import projects from '../assets/projects.json'
 import type Project from '../types/Project';
-import ProjectGroup from './ProjectGroup';
+import ProjectGroup from '../components/ProjectGroup';
+import TagLine from '../components/TagLine';
 
 const groupAndShuffleProjects = (projects: Project[]): Project[][] => {
 	const groups: Project[][] = [];
@@ -23,14 +24,18 @@ const groupAndShuffleProjects = (projects: Project[]): Project[][] => {
 
 const groupedProjects = groupAndShuffleProjects(projects);
 
-const ProjectList = () => {
+const WorkPage = () => {
 	return (
-		<div className="grid grid-cols-12 gap-x-4 gap-y-4">
-			{groupedProjects.map((groupedProject, index) => (
-				<ProjectGroup key={index} projects={groupedProject} />
-			))}
-		</div>
-	)
+		<>
+			<TagLine />
+			<div className="grid grid-cols-12 gap-x-4 gap-y-4">
+				{groupedProjects.map((groupedProject, index) => (
+					<ProjectGroup key={index} projects={groupedProject} />
+				))}
+			</div>
+		</>
+
+	);
 }
 
-export default ProjectList
+export default WorkPage

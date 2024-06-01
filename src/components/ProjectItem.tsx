@@ -21,10 +21,10 @@ const ProjectItem = ({ cssClasses, project }: { cssClasses: string, project: Pro
 	return (
 		<div className={'lazy ' + cssClasses + ''} data-bg={'/images/' + project.image}>
 			<div className="h-[70dvh]">
-				<a href="#">{project.name}</a>
+				<div>{project.name}</div>
 			</div>
 		</div>
-	)
+	);
 }
 
-export default ProjectItem
+export default ProjectItem;
