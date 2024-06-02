@@ -28,7 +28,7 @@ const WorkPage = () => {
 	return (
 		<>
 			<TagLine />
-			<div className="grid grid-cols-12 gap-x-4 gap-y-4">
+			<div className="grid grid-cols-12 gap-x-[0.9375rem] gap-y-[5.625rem] lg:gap-y-[0.9375rem] mb-[90px]">
 				{groupedProjects.map((groupedProject, index) => (
 					<ProjectGroup key={index} projects={groupedProject} />
 				))}

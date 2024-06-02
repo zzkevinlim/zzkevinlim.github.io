@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Sling as HamburgerMenu } from "hamburger-react";
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
@@ -23,9 +23,22 @@ const TextColourAnimationOnHover = styled.div`
 const NavigationMenu = () => {
 	const [isOpen, setOpen] = useState(false);
 
+	useEffect(() => {
+		if (isOpen) {
+			document.documentElement.style.setProperty('--scrollbar-track', '#ffffff');
+			document.documentElement.style.setProperty('--scrollbar-thumb', '#ffffff');
+			document.documentElement.style.setProperty('--scrollbar-thumb-hover', '#ffffff');
+
+		} else {
+			document.documentElement.style.setProperty('--scrollbar-track', '#384051');
+			document.documentElement.style.setProperty('--scrollbar-thumb', '#ffc91e');
+			document.documentElement.style.setProperty('--scrollbar-thumb-hover', '#ad8500');
+		}
+	}, [isOpen]);
+
 	return (
 		<>
-			<div className="fixed left-0 top-0 w-[13.125rem] xl:w-[17.1875rem] h-full bg-secondary-500 hidden lg:flex flex-col items-end justify-between pr-[1.875rem] xl:pr-[3.4375rem] py-[3.4375rem]">
+			<div className="fixed z-[50] left-0 top-0 w-[13.125rem] xl:w-[17.1875rem] h-full bg-secondary-500 hidden lg:flex flex-col items-end justify-between pr-[1.875rem] xl:pr-[3.4375rem] py-[3.4375rem]">
 				<div className="flex flex-col items-end">
 					<NavLink to={`/`}>
 						<TextColourAnimationOnHover className="font-primary font-semibold text-[1.625rem] xl:text-[2rem] bg-gradient-to-r from-primary-500 via-primary-500 to-white from-0% via-50% to-50% transition-all duration-300">kevinlim.dev</TextColourAnimationOnHover>
@@ -64,13 +77,15 @@ const NavigationMenu = () => {
 					</div>
 				</div>
 			</div>
-			<div className={`fixed left-0 top-0 w-full h-[5rem] flex lg:hidden items-center justify-between px-[0.9375rem] md:px-[4.6875rem] transition-all duration-300 ${isOpen ? 'bg-white' : 'drop-shadow-md bg-secondary-500'}`}>
+			<div className={`fixed z-[50] left-0 top-0 w-full h-[5rem] flex lg:hidden items-center justify-between px-[0.9375rem] md:px-[4.6875rem] transition-all duration-300 ${isOpen ? 'bg-white' : 'drop-shadow-md bg-secondary-500'}`}>
 				<NavLink to={`/`}>
 					<TextColourAnimationOnHover className={`font-primary font-semibold text-[1.625rem] from-0% via-50% to-50% transition-all duration-300 ${isOpen ? 'bg-gradient-to-r from-primary-500 via-primary-500 to-secondary-500' : 'bg-gradient-to-r from-primary-500 via-primary-500 to-white'}`}>kevinlim.dev</TextColourAnimationOnHover>
 				</NavLink>
-				<HamburgerMenu size={25} color={`${isOpen ? '#384051' : '#FFFFFF'}`} toggled={isOpen} toggle={setOpen} />
+				<div className={`${isOpen ? 'mr-[-1.25rem]' : 'mr-[-0.625rem]'} transiion-all duration-300`}>
+					<HamburgerMenu size={25} color={`${isOpen ? '#384051' : '#ffffff'}`} toggled={isOpen} toggle={setOpen} />
+				</div>
 			</div>
-			<div className={`fixed block lg:hidden inset-0 bg-white px-[0.9375rem] md:px-[4.6875rem] mt-[5rem] transition-all duration-300 ${isOpen ? 'opacity-1 visible' : 'opacity-0 invisible'}`}>
+			<div className={`fixed z-[50] block lg:hidden inset-0 bg-white px-[0.9375rem] md:px-[4.6875rem] mt-[5rem] transition-all duration-300 ${isOpen ? 'opacity-1 visible' : 'opacity-0 invisible'}`}>
 				<div>
 					<NavLink to={`/`} className={({ isActive }: { isActive: boolean }) => isActive ? "text-primary-500" : "text-secondary-500"} onClick={() => setOpen((open) => !open)}>
 						<div className="relative inline-block my-[1.875rem] group">

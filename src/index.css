@@ -85,3 +85,30 @@
   font-weight: 900;
   src: url("/fonts/ProductSans-BlackItalic.woff") format("woff");
 }
+
+:root {
+  --scrollbar-track: #384051;
+  --scrollbar-thumb: #ffc91e;
+  --scrollbar-thumb-hover: #ad8500;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-thumb-hover);
+}
+
+::selection {
+  background-color: #ffc91e;
+}
