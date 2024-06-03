@@ -34,7 +34,6 @@ const WorkPage = () => {
 				))}
 			</div>
 		</>
-
 	);
 }
 

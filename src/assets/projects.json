@@ -1,260 +1,386 @@
 [
 	{
-		"excerpt": "italentsky.net",
+		"description": "italentsky.net",
 		"image": "01-italentsky-net.png",
-		"name": "Digital SME",
-		"url": "digitalteamwork.com"
+		"name": "iTalent Sky",
+		"url": "https://italentsky.net"
 	},
 	{
+		"description": "digitalteamwork.com",
 		"image": "02-digitalteamwork-com.png",
-		"name": "Digital Teamwork"
+		"name": "Digital Teamwork",
+		"url": "https://digitalteamwork.com"
 	},
 	{
+		"description": "alpharmac.com",
 		"image": "03-alpharmac-com.png",
-		"name": "Alpharmac"
+		"name": "Alpharmac",
+		"url": "https://alpharmac.com"
 	},
 	{
+		"description": "hwlsuspension.com.my",
 		"image": "04-hwlsuspension-com-my.png",
-		"name": "HWL Performance Absorber"
+		"name": "HWL Performance Absorber",
+		"url": "https://hwlsuspension.com.my"
 	},
 	{
+		"description": "yuwahsteel.com",
 		"image": "05-yuwahsteel-com.png",
-		"name": "Yu Wah"
+		"name": "Yu Wah",
+		"url": "https://yuwahsteel.com"
 	},
 	{
+		"description": "instantexpomalaysia.com",
 		"image": "06-instantexpomalaysia-com.png",
-		"name": "ES Expo"
+		"name": "ES Expo",
+		"url": "https://instantexpomalaysia.com"
 	},
 	{
+		"description": "croesus.com.my",
 		"image": "07-croesus-com-my.png",
-		"name": "Croesus"
+		"name": "Croesus",
+		"url": "https://croesus.com.my"
 	},
 	{
+		"description": "cncfrht.com",
 		"image": "08-cncfrht-com.png",
-		"name": "CNC Freight"
+		"name": "CNC Freight",
+		"url": "https://cncfrht.com"
 	},
 	{
+		"description": "techwizard.com.my",
 		"image": "09-techwizard-com-my.png",
-		"name": "Tech Wizard"
+		"name": "Tech Wizard",
+		"url": "https://techwizard.com.my"
 	},
 	{
+		"description": "interface.test",
 		"image": "10-interface-test.png",
-		"name": "Interface"
+		"name": "Interface",
+		"url": "https://interface.test"
 	},
 	{
+		"description": "ibroadband.my",
 		"image": "11-ibroadband-my.png",
-		"name": "iBroadband"
+		"name": "iBroadband",
+		"url": "https://ibroadband.my"
 	},
 	{
+		"description": "chaintope.com",
 		"image": "12-chaintope-com.png",
-		"name": "Chaintope Malaysia"
+		"name": "Chaintope Malaysia",
+		"url": "https://chaintope.com"
 	},
 	{
+		"description": "luxeinfinity.com.my",
 		"image": "13-luxeinfinity-com-my.png",
-		"name": "TT Infinity Jewellery"
+		"name": "TT Infinity Jewellery",
+		"url": "https://luxeinfinity.com.my"
 	},
 	{
+		"description": "fshitech.com.my",
 		"image": "14-fshitech-com-my.png",
-		"name": "FS HiTech"
+		"name": "FS HiTech",
+		"url": "https://fshitech.com.my"
 	},
 	{
+		"description": "turapet.com",
 		"image": "15-turapet-com.png",
-		"name": "Tura Brand"
+		"name": "Tura Brand",
+		"url": "https://turapet.com"
 	},
 	{
+		"description": "setiageosolutions.com",
 		"image": "16-setiageosolutions-com.png",
-		"name": "Setia Geosolutions"
+		"name": "Setia Geosolutions",
+		"url": "https://setiageosolutions.com"
 	},
 	{
+		"description": "latar.com.my",
 		"image": "17-latar-com-my.png",
-		"name": "LATAR KL-Kuala Selangor Expressway"
+		"name": "LATAR KL-Kuala Selangor Expressway",
+		"url": "https://latar.com.my"
 	},
 	{
+		"description": "checkmaid.my",
 		"image": "18-checkmaid-my.png",
-		"name": "CheckMaid"
+		"name": "CheckMaid",
+		"url": "https://checkmaid.my"
 	},
 	{
+		"description": "wepawn.com.my",
 		"image": "19-wepawn-com-my.png",
-		"name": "WePawn"
+		"name": "WePawn",
+		"url": "https://wepawn.com.my"
 	},
 	{
+		"description": "shafeeco.test",
 		"image": "20-shafeeco-test.png",
-		"name": "Shafee & Co Advocates & Solicitors"
+		"name": "Shafee & Co Advocates & Solicitors",
+		"url": "https://shafeeco.test"
 	},
 	{
+		"description": "jamdesauce.test",
 		"image": "21-jamdesauce-test.png",
-		"name": "Jam De Sauce"
+		"name": "Jam De Sauce",
+		"url": "https://jamdesauce.test"
 	},
 	{
+		"description": "artrustees.my",
 		"image": "22-artrustees-my.png",
-		"name": "Amanahraya Trustees"
+		"name": "Amanahraya Trustees",
+		"url": "https://artrustees.my"
 	},
 	{
+		"description": "mkmedic.com.my",
 		"image": "23-mkmedic-com-my.png",
-		"name": "MK Nexus"
+		"name": "MK Nexus",
+		"url": "https://mkmedic.com.my"
 	},
 	{
+		"description": "fcinsurance.test",
 		"image": "24-fcinsurance-test.png",
-		"name": "FC Insurance Group"
+		"name": "FC Insurance Group",
+		"url": "https://fcinsurance.test"
 	},
 	{
+		"description": "bakertilly.my",
 		"image": "25-bakertilly-my.png",
-		"name": "Bakertilly"
+		"name": "Bakertilly",
+		"url": "https://bakertilly.my"
 	},
 	{
+		"description": "megah.com.my",
 		"image": "26-megah-com-my.png",
-		"name": "Megah"
+		"name": "Megah",
+		"url": "https://megah.com.my"
 	},
 	{
+		"description": "waketowee.com",
 		"image": "27-waketowee-com.png",
-		"name": "WakeToWee"
+		"name": "WakeToWee",
+		"url": "https://waketowee.com"
 	},
 	{
+		"description": "goldenkestreltours.com",
 		"image": "28-goldenkestreltours-com.png",
-		"name": "Golden Kestrel"
+		"name": "Golden Kestrel",
+		"url": "https://goldenkestreltours.com"
 	},
 	{
+		"description": "portal.busbuddy.my",
 		"image": "29-portal-busbuddy-my.png",
-		"name": "Bus Buddy"
+		"name": "Bus Buddy",
+		"url": "https://portal.busbuddy.my"
 	},
 	{
+		"description": "acesawards.com",
 		"image": "30-acesawards-com.png",
-		"name": "Ace Awards"
+		"name": "Ace Awards",
+		"url": "https://aceawards.com"
 	},
 	{
+		"description": "gouni.com.my",
 		"image": "31-gouni-com-my.png",
-		"name": "Gouni Enhance Your Beauty"
+		"name": "Gouni Enhance Your Beauty",
+		"url": "https://gouni.com.my"
 	},
 	{
+		"description": "chif.test",
 		"image": "32-chif-test.png",
-		"name": "Chif Everywhere"
+		"name": "Chif Everywhere",
+		"url": "https://chif.test"
 	},
 	{
+		"description": "geomatic.com.my",
 		"image": "33-geomatic-com-my.png",
-		"name": "Geomatic"
+		"name": "Geomatic",
+		"url": "https://geomatic.com.my"
 	},
 	{
+		"description": "mytrev.com",
 		"image": "34-mytrev-com.png",
-		"name": "Trev"
+		"name": "Trev",
+		"url": "https://mytrev.com"
 	},
 	{
+		"description": "actio.nz",
 		"image": "35-actio-nz.png",
-		"name": "Actio."
+		"name": "Actio.",
+		"url": "https://actio.nz"
 	},
 	{
+		"description": "knode.co.nz",
 		"image": "36-knode-co-nz.png",
-		"name": "Knode."
+		"name": "Knode.",
+		"url": "https://knode.co.nz"
 	},
 	{
+		"description": "meadowmushrooms.co.nz",
 		"image": "37-meadowmushrooms-co-nz.png",
-		"name": "Meadow Mushrooms"
+		"name": "Meadow Mushrooms",
+		"url": "https://meadowmushrooms.co.nz"
 	},
 	{
+		"description": "chemdry.co.nz",
 		"image": "38-chemdry-co-nz.png",
-		"name": "ChemDry"
+		"name": "ChemDry",
+		"url": "https://chemdry.co.nz"
 	},
 	{
+		"description": "skyloft.co.nz",
 		"image": "39-skyloft-co-nz.png",
-		"name": "SkyLoft Takapuna"
+		"name": "SkyLoft Takapuna",
+		"url": "https://skyloft.co.nz"
 	},
 	{
+		"description": "tsq.co.nz",
 		"image": "40-tsq-co-nz-v1.png",
-		"name": "TSQ Technical Speed Quality"
+		"name": "TSQ Technical Speed Quality (v1.0)",
+		"url": "https://tsq.co.nz"
 	},
 	{
+		"description": "tsq.co.nz",
 		"image": "41-tsq-co-nz-v2.png",
-		"name": "TSQ Technical Speed Quality"
+		"name": "TSQ Technical Speed Quality (v2.0)",
+		"url": "https://tsq.co.nz"
 	},
 	{
+		"description": "auroradevelopments.co.nz",
 		"image": "42-auroradevelopments-co-nz.png",
-		"name": "Aurora Building & Development"
+		"name": "Aurora Building & Development",
+		"url": "https://auroradevelopments.co.nz"
 	},
 	{
+		"description": "pacificheightsorewa.co.nz",
 		"image": "43-pacificheightsorewa-co-nz.png",
-		"name": "Pacific Heights Orewa"
+		"name": "Pacific Heights Orewa",
+		"url": "https://pacificheightsorewa.co.nz"
 	},
 	{
+		"description": "fastgroup.co.nz",
 		"image": "44-fastgroup-co-nz.png",
-		"name": "Fast Group"
+		"name": "Fast Group",
+		"url": "https://fastgroup.co.nz"
 	},
 	{
+		"description": "pjgroup.co.nz",
 		"image": "45-pjgroup-co-nz-en.png",
-		"name": "PJ Group International"
+		"name": "PJ Group International",
+		"url": "https://pjgroup.co.nz"
 	},
 	{
+		"description": "goldsmithmortgages.co.nz",
 		"image": "46-goldsmithmortgages-co-nz.png",
-		"name": "Goldsmith Mortgages"
+		"name": "Goldsmith Mortgages",
+		"url": "https://goldsmithmortgages.co.nz"
 	},
 	{
+		"description": "kingdomtournz.com",
 		"image": "47-kingdomtournz-com.png",
-		"name": "Kingdom Tour"
+		"name": "Kingdom Tour",
+		"url": "https://kingdomtournz.com"
 	},
 	{
+		"description": "mtgtourism.com",
 		"image": "48-mtgtourism-com.png",
-		"name": "MTG Master Travel Group"
+		"name": "MTG Master Travel Group",
+		"url": "https://mtgtourism.com"
 	},
 	{
+		"description": "yesrentals.co.nz",
 		"image": "49-yesrentals-co-nz-v1.png",
-		"name": "Yes Rentals"
+		"name": "Yes Rentals (v1.0)",
+		"url": "https://yesrentals.co.nz"
 	},
 	{
+		"description": "yesrentals.co.nz",
 		"image": "50-yesrentals-co-nz-v2.png",
-		"name": "Yes Rentals"
+		"name": "Yes Rentals (v2.0)",
+		"url": "https://yesrentals.co.nz"
 	},
 	{
+		"description": "oneoffresidence.pjgroup.co.nz",
 		"image": "51-oneoffresidence-pjgroup-co-nz.png",
-		"name": "PJ Group One-off Residence"
+		"name": "PJ Group One-off Residence",
+		"url": "https://oneoffresidence.pjgroup.co.nz"
 	},
 	{
+		"description": "regeinecareer.com",
 		"image": "52-regeinecareer-com.png",
-		"name": "Regeine Career Recruitment"
+		"name": "Regeine Career Recruitment",
+		"url": "https://regeinecareer.com"
 	},
 	{
+		"description": "acclaimelectrical.co.nz",
 		"image": "53-acclaimelectrical-co-nz-v1.png",
-		"name": "Acclaim Electrical"
+		"name": "Acclaim Electrical (v1.0)",
+		"url": "https://acclaimelectrical.co.nz"
 	},
 	{
+		"description": "acclaimelectrical.co.nz",
 		"image": "54-acclaimelectrical-co-nz-v2.png",
-		"name": "Acclaim Electrical"
+		"name": "Acclaim Electrical (v2.0)",
+		"url": "https://acclaimelectrical.co.nz"
 	},
 	{
+		"description": "treasurehomes.co.nz",
 		"image": "55-treasurehomes-co-nz.png",
-		"name": "Treasure Homes"
+		"name": "Treasure Homes",
+		"url": "https://treasurehomes.co.nz"
 	},
 	{
+		"description": "portal.focuseducation.co.nz",
 		"image": "56-portal-focuseducation-co-nz-v1.png",
-		"name": "Focus Education"
+		"name": "Focus Education (v1.0)",
+		"url": "https://portal.focuseducation.co.nz"
 	},
 	{
+		"description": "portal.focuseducation.co.nz",
 		"image": "57-portal-focuseducation-co-nz-v2.png",
-		"name": "Focus Education"
+		"name": "Focus Education (v2.0)",
+		"url": "https://portal.focuseducation.co.nz"
 	},
 	{
+		"description": "superstar.kiwi",
 		"image": "58-superstar-kiwi.png",
-		"name": "Superstar Playground Party Room Cafe"
+		"name": "Superstar Playground Party Room Cafe",
+		"url": "https://superstar.kiwi"
 	},
 	{
+		"description": "3eyescreativity.co.nz",
 		"image": "59-3eyescreativity-co-nz-v1.png",
-		"name": "3Eyes Creativity Renovation Services"
+		"name": "3Eyes Creativity Renovation Services (v1.0)",
+		"url": "https://3eyescreativity.co.nz"
 	},
 	{
+		"description": "nggroup.nz",
 		"image": "60-nggroup-nz.png",
-		"name": "New Grand Group"
+		"name": "New Grand Group",
+		"url": "https://nggroup.nz"
 	},
 	{
+		"description": "nzii.co.nz",
 		"image": "61-nzii-co-nz.png",
-		"name": "NZII New Zealand Integrity Investment"
+		"name": "NZII New Zealand Integrity Investment",
+		"url": "https://nzii.co.nz"
 	},
 	{
+		"description": "theia.co.nz",
 		"image": "62-theia-co-nz.png",
-		"name": "Theia Design Studio"
+		"name": "Theia Design Studio",
+		"url": "https://theia.co.nz"
 	},
 	{
+		"description": "kyoryuofficial.com",
 		"image": "63-kyoryuofficial-com.png",
-		"name": "Kyoryu Official"
+		"name": "Kyoryu Official",
+		"url": "https://kyoryuofficial.com"
 	},
 	{
+		"description": "infomate.co.nz",
 		"image": "64-infomate-co-nz.png",
-		"name": "Infomate"
+		"name": "Infomate",
+		"url": "https://infomate.co.nz"
 	}
 ]
