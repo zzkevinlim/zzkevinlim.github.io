@@ -21,7 +21,7 @@ const ProjectItem = ({ cssClasses, project }: { cssClasses: string, project: Pro
 
 	return (
 		<div className={cssClasses + ` relative`} >
-			<div className={`h-[120dvw] xs:h-[65dvw] sm:h-[65dvw] md:h-[65dvw] lg:h-[50dvw] xl:h-[35vw] lazy`} data-bg={'/images/' + project.image}>
+			<div className={`h-[120dvw] xs:h-[65dvw] sm:h-[65dvw] md:h-[65dvw] lg:h-[50dvw] xl:h-[35dvw] lazy`} data-bg={'/images/' + project.image}>
 			</div>
 			<div className="lg:absolute lg:left-[2.5rem] lg:bottom-[2.5rem]">
 				<div className="font-primary font-normal text-[1.25rem] lg:text-[1.5625rem] text-white mt-[0.9375rem]">{project.name}</div>

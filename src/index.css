@@ -112,3 +112,8 @@
 ::selection {
   background-color: #ffc91e;
 }
+
+html {
+  scroll-behavior: smooth;
+  @apply bg-secondary-500 overflow-x-hidden;
+}

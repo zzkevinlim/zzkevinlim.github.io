@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-spring/web": "^9.7.3",
     "@tailwindcss/container-queries": "^0.1.1",
     "autoprefixer": "^10.4.19",
     "hamburger-react": "^2.5.1",
