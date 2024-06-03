@@ -25,9 +25,9 @@ const ProjectItem = ({ cssClasses, project }: { cssClasses: string, project: Pro
 		document.lazyLoadInstance.update();
 
 		if (isOpen) {
-			document.documentElement.style.setProperty('--scrollbar-track', '#000000');
-			document.documentElement.style.setProperty('--scrollbar-thumb', '#000000');
-			document.documentElement.style.setProperty('--scrollbar-thumb-hover', '#000000');
+			document.documentElement.style.setProperty('--scrollbar-track', '#384051');
+			document.documentElement.style.setProperty('--scrollbar-thumb', '#384051');
+			document.documentElement.style.setProperty('--scrollbar-thumb-hover', '#384051');
 
 		} else {
 			document.documentElement.style.setProperty('--scrollbar-track', '#384051');
@@ -46,6 +46,10 @@ const ProjectItem = ({ cssClasses, project }: { cssClasses: string, project: Pro
 				slides={[
 					{ src: '/images/' + project.image },
 				]}
+				render={{
+					buttonPrev: () => null,
+					buttonNext: () => null,
+				}}
 				plugins={[Zoom]}
 				zoom={{ ref: zoomRef }}
 			/>

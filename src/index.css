@@ -117,3 +117,7 @@ html {
   scroll-behavior: smooth;
   @apply bg-secondary-500 overflow-x-hidden;
 }
+
+.yarl__container {
+  @apply bg-secondary-500;
+}
