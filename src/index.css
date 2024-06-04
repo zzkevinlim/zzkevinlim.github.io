@@ -121,3 +121,7 @@ html {
 .yarl__container {
   @apply bg-secondary-500;
 }
+
+.loadimage {
+  @apply opacity-100;
+}

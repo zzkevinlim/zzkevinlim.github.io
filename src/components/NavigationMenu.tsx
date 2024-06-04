@@ -40,9 +40,9 @@ const NavigationMenu = () => {
 		<>
 			<div className="fixed z-[50] left-0 top-0 w-[13.125rem] xl:w-[17.1875rem] h-full bg-secondary-500 hidden lg:flex flex-col items-end justify-between pr-[1.875rem] xl:pr-[3.4375rem] py-[3.4375rem]">
 				<div className="flex flex-col items-end">
-					<NavLink to={`/`}>
+					<a href="/">
 						<TextColourAnimationOnHover className="font-primary font-semibold text-[1.625rem] xl:text-[2rem] bg-gradient-to-r from-primary-500 via-primary-500 to-white from-0% via-50% to-50% transition-all duration-300">kevinlim.dev</TextColourAnimationOnHover>
-					</NavLink>
+					</a>
 					<NavLink to={`/`} className={({ isActive }: { isActive: boolean }) => isActive ? "text-primary-500" : "text-white"}>
 						<div className="relative inline-block mt-[3.4375rem] mb-[1.5625rem] group">
 							<div className="absolute left-0 bottom-0 w-0 h-[0.0625rem] bg-white group-hover:w-full transition-all duration-300"></div>
@@ -65,14 +65,14 @@ const NavigationMenu = () => {
 					</NavLink>
 					<NavLink to={`mailto:zzkevinlim@gmail.com`}>
 						<div className="relative inline-block mb-[5rem] group hover:bg-primary-500 transition-all duration-300">
-							<div className="absolute left-0 bottom-0 w-full h-[0.0625rem] bg-secondary-300 group-hover:bg-black transition-all duration-300"></div>
+							<div className="absolute left-0 bottom-0 w-full h-[0.0625rem] bg-secondary-200 group-hover:bg-black transition-all duration-300"></div>
 							<span className="font-primary text-[1rem] xl:text-[1.0625rem] text-white tracking-wide group-hover:text-black transition-all duration-300">Email</span>
 						</div>
 					</NavLink>
 					<div className="font-primary text-[0.875rem] text-secondary-200 tracking-wide">Ownership of</div>
 					<div className="font-primary text-[0.875rem] text-secondary-200 tracking-wide">showcased projects'</div>
 					<div className="relative inline-block group hover:bg-primary-500 transition-all duration-300">
-						<div className="absolute left-0 bottom-0 w-full h-[0.0625rem] bg-secondary-300 group-hover:bg-black transition-all duration-300"></div>
+						<div className="absolute left-0 bottom-0 w-full h-[0.0625rem] bg-secondary-200 group-hover:bg-black transition-all duration-300"></div>
 						<span className="font-primary text-[0.875rem] text-secondary-200 tracking-wide group-hover:text-black transition-all duration-300">source code is ensured</span>
 					</div>
 				</div>
@@ -112,7 +112,7 @@ const NavigationMenu = () => {
 					</NavLink>
 					<NavLink to={`mailto:zzkevinlim@gmail.com`}>
 						<div className="relative inline-block mb-[1.875rem] group hover:bg-primary-500 transition-all duration-300">
-							<div className="absolute left-0 bottom-0 w-full h-[0.0625rem] bg-secondary-300 group-hover:bg-black transition-all duration-300"></div>
+							<div className="absolute left-0 bottom-0 w-full h-[0.0625rem] bg-secondary-200 group-hover:bg-black transition-all duration-300"></div>
 							<span className="font-primary text-[1rem] md:text-[1.0625rem] text-secondary-500 tracking-wide group-hover:text-black transition-all duration-300">Email</span>
 						</div>
 					</NavLink>
@@ -120,7 +120,7 @@ const NavigationMenu = () => {
 					<div>
 						<div className="inline-block font-primary text-[0.875rem] text-secondary-200 tracking-wide">Ownership of showcased projects'&nbsp;</div>
 						<div className="relative inline-block hover:bg-primary-500 transition-all duration-300">
-							<div className="absolute left-0 bottom-0 w-full h-[0.0625rem] bg-secondary-300 group-hover:bg-black transition-all duration-300"></div>
+							<div className="absolute left-0 bottom-0 w-full h-[0.0625rem] bg-secondary-200 group-hover:bg-black transition-all duration-300"></div>
 							<span className="font-primary text-[0.875rem] text-secondary-200 tracking-wide group-hover:text-black transition-all duration-300">source code is ensured</span>
 						</div>
 					</div>
