@@ -1,15 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from './App';
-import ErrorPage from './routes/ErrorPage';
-import WorkPage from './routes/WorkPage';
-import ContactPage from './routes/ContactPage';
-import './index.css';
+import App from "./App";
+import ErrorPage from "./routes/ErrorPage";
+import WorkPage from "./routes/WorkPage";
+import ContactPage from "./routes/ContactPage";
+import "./index.css";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
         element: <WorkPage />,
       },
       {
-        path: "/contact",
+        path: '/contact',
         element: <ContactPage />,
       },
     ],

@@ -1,7 +1,7 @@
-import projects from '../assets/projects.json'
-import type Project from '../types/Project';
-import ProjectGroup from '../components/ProjectGroup';
-import TagLine from '../components/TagLine';
+import TagLine from "../components/TagLine";
+import ProjectGroup from "../components/ProjectGroup";
+import type Project from "../types/Project";
+import projects from "../assets/projects.json"
 
 const groupAndShuffleProjects = (projects: Project[]): Project[][] => {
 	const groups: Project[][] = [];
@@ -28,7 +28,7 @@ const WorkPage = () => {
 	return (
 		<>
 			<TagLine />
-			<div className="grid grid-cols-12 gap-x-[0.9375rem] gap-y-[3.75rem] lg:gap-y-[0.9375rem] mb-[5.625rem]">
+			<div className='grid grid-cols-12 gap-x-[0.9375rem] gap-y-[3.75rem] lg:gap-y-[0.9375rem] mb-[5.625rem]'>
 				{groupedProjects.map((groupedProject, index) => (
 					<ProjectGroup key={index} projects={groupedProject} />
 				))}
@@ -37,4 +37,4 @@ const WorkPage = () => {
 	);
 }
 
-export default WorkPage
+export default WorkPage;

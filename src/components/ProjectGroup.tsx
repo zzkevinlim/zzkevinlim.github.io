@@ -1,9 +1,8 @@
-import type Project from '../types/Project';
-import ProjectItem from './ProjectItem';
+import type Project from "../types/Project";
+import ProjectItem from "./ProjectItem";
 
 const ProjectGroup = ({ projects }: { projects: Project[] }) => {
 	const projectCount = projects.length;
-
 	let randomLayout: number;
 
 	switch (projectCount) {

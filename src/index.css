@@ -122,6 +122,6 @@ html {
   @apply bg-secondary-500;
 }
 
-.loadimage {
+.image-loading-animation {
   @apply opacity-100;
 }
