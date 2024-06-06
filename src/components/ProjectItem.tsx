@@ -13,7 +13,7 @@ declare global {
 if (!document.lazyLoadInstance) {
 	document.lazyLoadInstance = new LazyLoad({
 		elements_selector: '.lazy',
-		class_entered: 'image-loading-animation',
+		class_loaded: 'image-loading-animation',
 	});
 }
 
