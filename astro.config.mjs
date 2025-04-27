@@ -9,5 +9,6 @@ export default defineConfig({
 	integrations: [react()],
 	vite: {
 		plugins: [tailwindcss()],
-	  },
+	},
+	site: 'https://zzkevinlim.github.io',
 });
