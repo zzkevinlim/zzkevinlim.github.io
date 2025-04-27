@@ -7,6 +7,8 @@ const someProps = {
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/basics/astro-components/
+
+import "../styles/global.css";
 ---
 
 <html lang="en">
@@ -29,7 +31,7 @@ const someProps = {
 	<body>
 		<main>
 			<Counter {...someProps} client:visible>
-				<h1>Hello, React!</h1>
+				<h1 class="text-3xl font-bold underline">Hello, React!</h1>
 			</Counter>
 		</main>
 	</body>

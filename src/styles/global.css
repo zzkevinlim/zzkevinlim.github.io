@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "tailwindcss-debug-screens";
+
+body {
+	@apply debug-screens;
+}
