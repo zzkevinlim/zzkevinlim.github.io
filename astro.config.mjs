@@ -10,4 +10,6 @@ export default defineConfig({
 	vite: {
 		plugins: [tailwindcss()],
 	},
+	site: 'https://zzkevinlim.github.io',
+  	base: 'zzkevinlim.github.io',
 });
