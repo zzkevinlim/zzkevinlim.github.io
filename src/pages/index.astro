@@ -1,38 +1,35 @@
 ---
-// Component Imports
-import Counter from '../components/Counter';
-const someProps = {
-	count: 0,
-};
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/basics/astro-components/
-
 import "../styles/global.css";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<style>
-			html,
-			body {
-				font-family: system-ui;
-				margin: 0;
-			}
-			body {
-				padding: 2rem;
-			}
-		</style>
-	</head>
-	<body>
-		<main>
-			<Counter {...someProps} client:visible>
-				<h1 class="text-6xl font-bold text-gray-500">Welcome to Kevin Lim's latest website!</h1>
-			</Counter>
-		</main>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicons/favicon-16x16.png"
+    />
+  </head>
+  <body>
+    <main>
+      <h1 class="text-6xl font-bold text-blue-500">
+        Welcome to Kevin Lim's latest website!
+      </h1>
+    </main>
+  </body>
 </html>
