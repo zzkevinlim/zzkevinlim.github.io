@@ -11,4 +11,7 @@ export default defineConfig({
 		plugins: [tailwindcss()],
 	},
 	site: 'https://kevinlim.dev',
+	devToolbar: {
+		enabled: true,
+	}
 });
