@@ -1,1 +1,35 @@
 @import "tailwindcss";
+
+@plugin "tailwindcss-debug-screens";
+
+@font-face {
+  font-family: "Google Sans Display";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/GoogleSansDisplay-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Google Sans Display";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/GoogleSansDisplay-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Google Sans 18pt";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/GoogleSans18pt-Regular.woff") format("woff");
+}
+
+@theme {
+  --font-google-sans-display: "Google Sans Display", sans-serif;
+
+  --font-sans: "Google Sans 18pt", sans-serif;
+  --font-serif: "Google Sans 18pt", serif;
+  --font-mono: "Google Sans 18pt", monospace;
+}

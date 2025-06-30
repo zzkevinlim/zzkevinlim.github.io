@@ -1,14 +1,11 @@
-import { useState } from 'react';
-
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <button onClick={() => setCount((count) => count + 1)} className="rounded-full bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-all cursor-pointer">
-        Count is {count}
-      </button>
-    </>
+    <main className="container mx-auto px-4">
+      <h1 className="font-medium text-[100px]">Your Vision, My Mission</h1>
+      <h1 className="ffont-google-sans-display ont-medium text-[100px]">Your Vision, My Mission</h1>
+      <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eum rem? Exercitationem minus quisquam reprehenderit iste tenetur dolorum, labore explicabo.</p>
+      <p className="font-google-sans-display text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eum rem? Exercitationem minus quisquam reprehenderit iste tenetur dolorum, labore explicabo.</p>
+    </main>
   )
 }
 
