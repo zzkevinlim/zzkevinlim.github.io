@@ -64,9 +64,15 @@ const NavigationMenu = () => {
 						</div>
 					</NavLink>
 					<NavLink to={`mailto:zzkevinlim@gmail.com`}>
-						<div className='relative inline-block mb-[5rem] group hover:bg-primary-500 transition-all duration-300'>
+						<div className='relative inline-block mb-[1.25rem] group hover:bg-primary-500 transition-all duration-300'>
 							<div className='absolute left-0 bottom-0 w-full h-[0.0625rem] bg-secondary-200 group-hover:bg-black transition-all duration-300'></div>
 							<span className='font-primary text-[1rem] xl:text-[1.0625rem] text-white tracking-wide group-hover:text-black transition-all duration-300'>Email</span>
+						</div>
+					</NavLink>
+					<NavLink to={`https://www.linkedin.com/in/zzkevinlim`}>
+						<div className='relative inline-block mb-[5rem] group hover:bg-primary-500 transition-all duration-300'>
+							<div className='absolute left-0 bottom-0 w-full h-[0.0625rem] bg-secondary-200 group-hover:bg-black transition-all duration-300'></div>
+							<span className='font-primary text-[1rem] xl:text-[1.0625rem] text-white tracking-wide group-hover:text-black transition-all duration-300'>LinkedIn</span>
 						</div>
 					</NavLink>
 					<div className='font-primary text-[0.875rem] text-secondary-200 tracking-wide'>Ownership of</div>
@@ -111,9 +117,15 @@ const NavigationMenu = () => {
 						</div>
 					</NavLink>
 					<NavLink to={`mailto:zzkevinlim@gmail.com`}>
-						<div className='relative inline-block mb-[1.875rem] group hover:bg-primary-500 transition-all duration-300'>
+						<div className='relative inline-block mb-[0.9375rem] group hover:bg-primary-500 transition-all duration-300'>
 							<div className='absolute left-0 bottom-0 w-full h-[0.0625rem] bg-secondary-200 group-hover:bg-black transition-all duration-300'></div>
 							<span className='font-primary text-[1rem] md:text-[1.0625rem] text-secondary-500 tracking-wide group-hover:text-black transition-all duration-300'>Email</span>
+						</div>
+					</NavLink>
+					<NavLink to={`https://www.linkedin.com/in/zzkevinlim`}>
+						<div className='relative inline-block mb-[1.875rem] group hover:bg-primary-500 transition-all duration-300'>
+							<div className='absolute left-0 bottom-0 w-full h-[0.0625rem] bg-secondary-200 group-hover:bg-black transition-all duration-300'></div>
+							<span className='font-primary text-[1rem] md:text-[1.0625rem] text-secondary-500 tracking-wide group-hover:text-black transition-all duration-300'>LinkedIn</span>
 						</div>
 					</NavLink>
 					<div className='w-full h-[0.0625rem] bg-secondary-500 mb-[1.875rem]'></div>

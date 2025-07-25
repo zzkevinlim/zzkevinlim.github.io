@@ -16,6 +16,13 @@ const ContactPage = () => {
 							<span className='font-primary font-normal text-[0.875rem] lg:text-[0.9375rem] text-white tracking-widest uppercase'>Email away</span>
 						</div>
 					</NavLink>
+					<span className='font-primary font-normal text-[0.6875rem] lg:text-[0.75rem] text-white tracking-widest uppercase px-[0.625rem]'>OR</span>
+					<NavLink to={`https://www.linkedin.com/in/zzkevinlim`}>
+						<div className='relative inline-block group'>
+							<div className='absolute left-0 bottom-[-0.3125rem] w-[50%] h-[0.0625rem] bg-white group-hover:w-full transition-all duration-300'></div>
+							<span className='font-primary font-normal text-[0.875rem] lg:text-[0.9375rem] text-white tracking-widest uppercase'>Connect on LinkedIn</span>
+						</div>
+					</NavLink>
 				</div>
 			</div>
 		</>
