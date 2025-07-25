@@ -48,7 +48,7 @@ const ProjectItem = ({ cssClasses, project }: { cssClasses: string, project: Pro
 						<div onClick={() => setOpen(true)} className='cursor-pointer'>
 							<div className='relative inline-block group mb-[0.3125rem]'>
 								<div className='absolute left-0 bottom-[-0.3125rem] w-[50%] h-[0.0625rem] bg-white group-hover:w-full transition-all duration-300'></div>
-								<span className='font-primary font-normal text-[0.9375rem] text-secondary-500 tracking-widest uppercase'>Take a Look</span>
+								<span className='font-primary font-normal text-[0.9375rem] text-white lg:text-secondary-500 tracking-widest uppercase'>Take a Look</span>
 							</div>
 						</div>
 					</div>
@@ -59,7 +59,7 @@ const ProjectItem = ({ cssClasses, project }: { cssClasses: string, project: Pro
 				<div onClick={() => setOpen(true)} className='cursor-pointer'>
 					<div className='relative inline-block group mb-[0.3125rem]'>
 						<div className='absolute left-0 bottom-[-0.3125rem] w-[50%] h-[0.0625rem] bg-white group-hover:w-full transition-all duration-300'></div>
-						<span className='font-primary font-normal text-[0.875rem] text-secondary-500 tracking-widest uppercase'>Take a Look</span>
+						<span className='font-primary font-normal text-[0.875rem] text-white lg:text-secondary-500 tracking-widest uppercase'>Take a Look</span>
 					</div>
 				</div>
 			</div>
