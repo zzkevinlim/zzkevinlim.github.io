@@ -509,5 +509,12 @@
 		"image": "73-careeracademy-ie-v2.png",
 		"name": "The Career Academy Ireland (v2.0)",
 		"url": "https://careeracademy.ie"
+	},
+	{
+		"id": 74,
+		"description": "adsauckland.com",
+		"image": "74-adsauckland-com.png",
+		"name": "Aaron's Driving School",
+		"url": "https://adsauckland.com/"
 	}
 ]
